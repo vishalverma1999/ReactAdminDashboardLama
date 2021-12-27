@@ -1,92 +1,15 @@
 import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./components/sidebar/Sidebar";
+import "./app.css"
+
 
 const App = () => {
   return <>
     <Topbar />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
-    test <br />
+   <div className="container">
+     <Sidebar />
+     <div className="others">others</div>
+   </div>
     </>
 };
 
