@@ -26,3 +26,7 @@
                                                 @mui/material
                                                 @mui/styled-engine
                                                 @mui/x-data-grid
+
+                
+- User display and update page:-
+                single page user as well we can update the the user from here only
