@@ -15,3 +15,14 @@
 -Admin dashboard info widgets(Revenue, sales, costs)
 
 -React chart tutorial -- https://recharts.org/en-US/examples/SimpleLineChart
+-User information components
+
+-React Material UI Table tutorial:-
+                libraries used are - react router dom
+                To generate material ui Data Table packages to install  -- 
+                                                @material-ui/data-grid                       
+                                                @emotion/react
+                                                @emotion/styled
+                                                @mui/material
+                                                @mui/styled-engine
+                                                @mui/x-data-grid
