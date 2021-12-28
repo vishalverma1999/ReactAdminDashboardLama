@@ -13,3 +13,5 @@
 
 -Creating home page
 -Admin dashboard info widgets(Revenue, sales, costs)
+
+-React chart tutorial -- https://recharts.org/en-US/examples/SimpleLineChart
