@@ -1,5 +1,6 @@
 // single page user as well we can update the the user from here only
 import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndroid, Publish } from '@material-ui/icons'
+import { Link } from 'react-router-dom'
 import './user.css'
 
 function User() {
@@ -7,7 +8,10 @@ function User() {
         <div className='user'>
             <div className="userTitleContainer">
                 <h1 className="userTitle">Edit User</h1>
+                {/* Redirecting to /newUser on clicking on Creete button at /user/:userId */}
+                <Link to="/newUser">   
                 <button className="userAddButton">Create</button>
+                </Link>
             </div>
 
             <div className="userContainer">
