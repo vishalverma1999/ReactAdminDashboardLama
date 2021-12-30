@@ -63,3 +63,17 @@ export const userRows = [
     { id: 10, userName: 'Jon Snow', avatar: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', email: 'jonsnow@gmail.com', status: "active", transaction: "$120.00" },
 
 ];
+
+export const productRows = [
+    { id: 1, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 2, name: 'jeans', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 3, name: 'tshirt', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 4, name: 'tracksuit', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 5, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 6, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 7, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 8, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 9, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+    { id: 10, name: 'Apple iPod', img: 'https://cdn.wallpapersafari.com/60/61/MC2JnB.jpg', stock:123 , status: "active", price: "$120.00" },
+
+];
