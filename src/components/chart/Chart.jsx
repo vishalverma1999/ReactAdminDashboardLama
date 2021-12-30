@@ -1,5 +1,5 @@
 import './chart.css'
-import { LineChart, Line, XAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';   // https://recharts.org/en-US/examples/SimpleLineChart
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';   // https://recharts.org/en-US/examples/SimpleLineChart
 
 function Chart({ title, data, dataKey, grid }) {
 
@@ -21,14 +21,14 @@ function Chart({ title, data, dataKey, grid }) {
                     {/* stroke- color of these names */}
                     <XAxis dataKey="name" stroke='#5550bd' />
                     {/* Line is basically the thing that is to be plotted, so it's dataKey are the points of data to be drawn */}
-                    <Line type={"monotone"} dataKey={"Active User"} stroke='#5550bd' />
+                    <Line type={"monotone"} dataKey={dataKey} stroke='#5550bd' />
                     {/* Use Tooltip- when i hover as you can see i can see my active users */}
                     <Tooltip />
                     {/* strokeDasharray- will represent cartedianPlane in dashed lines */}
                     {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray={"5 5"} />}
                     {/* if grid then run CartesianGrid else not */}
                     {/* Legend shows us which property we are using here it's our Active User but we are using tooltip here so we don't need this we can delete */}
-                    <Legend />
+                    {/* <Legend className='legend' /> */}
                 </LineChart>
 
             </ResponsiveContainer>
